@@ -1,6 +1,6 @@
 Sanctum — SecCRY Encrypted Chat — Private, Peer-to-Peer, Forward-Secret
 
-Project Overview: Sanctum is a high-security, CLI chat application built on modified SecCRY 3.0.0 cryptographic primitives. It enables users to host and join private chat rooms directly from their computers without relying on third-party servers. Every message is encrypted end-to-end, ensuring that only the participants in the room can read the conversation.
+Sanctum is a Python-based, high-security, CLI chat application built on modified SecCRY 3.0.0 cryptographic primitives. It enables users to host and join private chat rooms directly from their computers without relying on third-party servers. Every message is encrypted end-to-end, ensuring that only the participants in the room can read the conversation.
 
 Security Architecture: X25519 ECDH (Perfect Forward Secrecy): Sanctum generates ephemeral session keys for every connection. Even if the room password is compromised later, past conversations remain unreadable because the session keys are never stored.
 
